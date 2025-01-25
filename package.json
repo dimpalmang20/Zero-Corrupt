@@ -1,0 +1,24 @@
+{
+  "name": "anticorruption_projx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimpalmang20/anti-corruption-website.git"
+  },
+  "keywords": [],
+  "author": "Dimpal",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dimpalmang20/anti-corruption-website/issues"
+  },
+  "homepage": "https://github.com/dimpalmang20/anti-corruption-website#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

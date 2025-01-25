@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    position: center;
+    
+}
+
+/* Header */
+header {
+    text-align: center;
+
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: rgb(156, 212, 226);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(206, 4, 4, 0.1);
+    
+
+}
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+}
+form button {
+    background: #29962d;
+    color: rgb(237, 235, 242);
+    border: none;
+    cursor: pointer;
+}
+#sector-title {
+    text-align: center; 
+    margin-bottom: 20px; /* Add some spacing below the heading */
+    text-decoration: underline;
+}
+/* for image in form*/
+body {
+    /* ... your existing body styles ... */
+    background-image: url(''); /* Replace with your image path */
+    background-size: cover; /* Options: cover, contain, 100% 100%, etc. */
+    background-position: center center; /* Options: center, top, bottom, left, right, etc. */
+    
+}
