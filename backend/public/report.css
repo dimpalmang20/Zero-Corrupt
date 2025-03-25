@@ -1,0 +1,40 @@
+#past-reports {
+    margin: 20px;
+}
+
+#past-reports h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.report-card {
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.report-card p {
+    margin-bottom: 5px;
+}
+
+.report-card strong {
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #past-reports {
+        margin: 10px;
+    }
+    .report-card {
+        padding: 15px;
+    }
+}

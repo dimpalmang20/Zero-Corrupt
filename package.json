@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dimpalmang20/anti-corruption-website#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "firebase": "^11.5.0"
   }
 }

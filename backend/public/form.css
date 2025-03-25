@@ -19,13 +19,13 @@ header {
 
 /* Form */
 form {
-    max-width: 400px;
+    max-width: 800px;
     margin: 2rem auto;
     background: rgb(156, 212, 226);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(206, 4, 4, 0.1);
-    
+    position: relative;
 
 }
 form label {
@@ -37,12 +37,14 @@ form input, form textarea, form button {
     width: 100%;
     margin-bottom: 1rem;
     padding: 0.8rem;
+    
 }
 form button {
     background: #29962d;
     color: rgb(237, 235, 242);
     border: none;
     cursor: pointer;
+    
 }
 #sector-title {
     text-align: center; 
@@ -54,6 +56,6 @@ body {
     /* ... your existing body styles ... */
     background-image: url(''); /* Replace with your image path */
     background-size: cover; /* Options: cover, contain, 100% 100%, etc. */
-    background-position: center center; /* Options: center, top, bottom, left, right, etc. */
+    background-position: center ; /* Options: center, top, bottom, left, right, etc. */
     
 }

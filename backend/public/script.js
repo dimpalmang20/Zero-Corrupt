@@ -101,3 +101,35 @@ function initMap() {
   
   }
 
+  const form = document.getElementById('sector-form'); 
+const sectorSelect = document.getElementById('sector'); 
+const descriptionInput = document.getElementById('description');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  const sector = sectorSelect.value;
+  const description = descriptionInput.value;
+
+  // Store data in Firestore
+  db.collection('Reports')
+    .add({
+      sector: sector,
+      description: description,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp() 
+    })
+    .then(() => {
+      alert('Data submitted successfully!');
+      // Clear form fields (optional)
+      sectorSelect.value = '';
+      descriptionInput.value = '';
+    })
+    .catch((error) => {
+      console.error("Error adding document: ", error);
+      alert('Error submitting data. Please try again.');
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("Footer Loaded!");
+});
